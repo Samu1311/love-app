@@ -1,0 +1,65 @@
+/* 🌟 General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* 🎨 Background for the Whole App */
+  body {
+    background-color: #0a0a23; /* Dark starry night */
+    color: #fff; /* White text */
+    text-align: center;
+  }
+  
+  /* ✨ Headings */
+  h1, h2, h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #f5d142; /* Warm gold for contrast */
+  }
+  
+  /* 🎭 Links */
+  a {
+    text-decoration: none;
+    color: #ff9f9f; /* Soft pink */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #ffcccb; /* Lighter pink on hover */
+  }
+  
+  /* 🏆 Button Styling */
+  button {
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff3b3b;
+    transform: scale(1.05);
+  }
+  
+  /* 🎵 Audio Player (Music Box Section) */
+  audio {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  /* ✨ Starry Night Animation */
+  @keyframes twinkle {
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0.3; }
+  }
+  
+  .twinkling-star {
+    animation: twinkle 2s infinite ease
+    }  
