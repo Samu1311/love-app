@@ -9,7 +9,6 @@ import PlayingSong from "./pages/PlayingSong";
 
 function App() {
   return (
-    <>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/love-map" element={<LoveMap />} />
@@ -18,7 +17,6 @@ function App() {
         <Route path="/music-box" element={<MusicBox />} />
         <Route path="/playing-song" element={<PlayingSong />} />
       </Routes>
-    </>
   );
 }
 
