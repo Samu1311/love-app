@@ -6,12 +6,10 @@ import Scrapbook from "./pages/Scrapbook";
 import Quiz from "./pages/Quiz";
 import MusicBox from "./pages/MusicBox";
 import PlayingSong from "./pages/PlayingSong";
-import Header from "./components/Header"; // Assuming you have a Header component
 
 function App() {
   return (
     <>
-      <Header /> {/* Show the header on all pages */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/love-map" element={<LoveMap />} />
