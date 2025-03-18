@@ -6,17 +6,21 @@ import Scrapbook from "./pages/Scrapbook";
 import Quiz from "./pages/Quiz";
 import MusicBox from "./pages/MusicBox";
 import PlayingSong from "./pages/PlayingSong";
+import Header from "./components/Header"; // Assuming you have a Header component
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/love-map" element={<LoveMap />} />
-      <Route path="/scrapbook" element={<Scrapbook />} />
-      <Route path="/quiz" element={<Quiz />} />
-      <Route path="/music-box" element={<MusicBox />} />
-      <Route path="/playing-song" element={<PlayingSong />} />
-    </Routes>
+    <>
+      <Header /> {/* Show the header on all pages */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/love-map" element={<LoveMap />} />
+        <Route path="/scrapbook" element={<Scrapbook />} />
+        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/music-box" element={<MusicBox />} />
+        <Route path="/playing-song" element={<PlayingSong />} />
+      </Routes>
+    </>
   );
 }
 
