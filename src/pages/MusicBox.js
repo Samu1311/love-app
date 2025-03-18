@@ -6,7 +6,8 @@ const songs = [
   { id: 1, title: "Chinita Linda", artists: "Álvaro Díaz, Rawayana", src: "/assets/music/Alvaro Diaz, Rawayana - Chinita Linda (Audio).mp3", cover: "/assets/images/chinita-linda.jpg" },
   { id: 2, title: "Corazón Adentro (Escorpio)", artists: "Bomba Estéreo, Rawayana", src: "/assets/music/Bomba Estéreo, Rawayana, ASTROPICAL - Corazón Adentro (Escorpio) (Audio).mp3", cover: "/assets/images/astropical.jpg" },
   { id: 3, title: "Capaz", artists: "Alleh & Yorghaki", src: "/assets/music/Alleh & Yorghaki - capaz OFFICIAL VERSION.mp3", cover: "/assets/images/capaz.jpg" },
-  { id: 4, title: "Tranqui, te puedes enamorar", artists: "Alleh & Yorghaki", src: "/assets/music/Alleh & Yorghaki - tranqui te puedes enamorar OFFICIAL VERSION.mp3", cover: "/assets/images/la-ciudad.jpg" },];
+  { id: 4, title: "Tranqui, te puedes enamorar", artists: "Alleh & Yorghaki", src: "/assets/music/Alleh & Yorghaki - tranqui te puedes enamorar OFFICIAL VERSION.mp3", cover: "/assets/images/la-ciudad.jpg" },
+];
 
 function MusicBox() {
   const navigate = useNavigate();

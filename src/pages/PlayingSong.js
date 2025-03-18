@@ -66,11 +66,11 @@ const PlayingSong = () => {
     <div className="playing-song-container" style={{ background: backgroundGradient }}>
       <div className="vinyl-record">
         <div className="record-center">
-          <img ref={imgRef} src={song.cover} alt={song.title} crossOrigin="anonymous" />
+          <img ref={imgRef} src={`${process.env.PUBLIC_URL}${song.cover}`} alt={song.title} crossOrigin="anonymous" />
         </div>
       </div>
       <div className="player">
-        <audio ref={audioRef} src={song.src} />
+        <audio ref={audioRef} src={`${process.env.PUBLIC_URL}${song.src}`} />
         <div className="controls">
           <button onClick={togglePlayPause} className="play-pause-button">
             <i className={isPlayingState ? "fas fa-pause" : "fas fa-play"}></i>

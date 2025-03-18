@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "../styles/LoveMap.css";
@@ -29,6 +30,11 @@ const locations = [
 
 function LoveMap() {
   const [selectedLocation, setSelectedLocation] = useState(null);
+  const navigate = useNavigate();
+
+  const goToHomePage = () => {
+    navigate("/");
+  };
 
   return (
     <div className="love-map-container">
@@ -43,6 +49,9 @@ function LoveMap() {
           <MapMarker key={location.id} location={location} selectedLocation={selectedLocation} setSelectedLocation={setSelectedLocation} />
         ))}
       </MapContainer>
+      <button className="home-button" onClick={goToHomePage}>
+        <i className="fas fa-home"></i> Home
+      </button>
     </div>
   );
 }
