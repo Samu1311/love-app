@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/love-app/static/css/main.5e874db2.css",
-    "main.js": "/love-app/static/js/main.05a7af8e.js",
+    "main.js": "/love-app/static/js/main.03c139a3.js",
     "static/media/torn-paper.jpg": "/love-app/static/media/torn-paper.dc8a4541b3e2de7dc92d.jpg",
     "static/media/starry-background.jpg": "/love-app/static/media/starry-background.e9b8b093264ac9c9251b.jpg",
     "static/media/first-date.jpg": "/love-app/static/media/first-date.efc806b20e5fbda110bc.jpg",
@@ -12,10 +12,10 @@
     "static/media/old-paper-texture.jpg": "/love-app/static/media/old-paper-texture.1698491f70c7299e57d9.jpg",
     "index.html": "/love-app/index.html",
     "main.5e874db2.css.map": "/love-app/static/css/main.5e874db2.css.map",
-    "main.05a7af8e.js.map": "/love-app/static/js/main.05a7af8e.js.map"
+    "main.03c139a3.js.map": "/love-app/static/js/main.03c139a3.js.map"
   },
   "entrypoints": [
     "static/css/main.5e874db2.css",
-    "static/js/main.05a7af8e.js"
+    "static/js/main.03c139a3.js"
   ]
 }
