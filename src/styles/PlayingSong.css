@@ -1,0 +1,152 @@
+body, html {
+  overflow: hidden; /* Prevent side and vertical scrolling */
+}
+
+.playing-song-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff; /* White text color */
+  text-align: center;
+  transition: background 0.5s ease; /* Smooth transition for background change */
+  padding: 20px; /* Ensure the content doesn't reach the sides of the screen */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.vinyl-record {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: url('../assets/images/vinyl-record.jpg') no-repeat center center; /* Vinyl record image */
+  background-size: cover;
+  position: relative;
+  margin: 20px 0;
+  animation: spin 10s linear infinite;
+}
+
+.record-center {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.record-center img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* Ensure the image is circular */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.player {
+  margin-top: 20px;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 90%; /* Ensure the box doesn't reach the sides of the screen */
+}
+
+audio {
+  display: none; /* Hide the default audio controls */
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.play-pause-button {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #ffcc00; /* Yellow color */
+  cursor: pointer;
+  outline: none; /* Remove focus outline */
+  width: 40px; /* Fixed width to prevent resizing */
+  text-align: center;
+}
+
+.play-pause-button:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.play-pause-button:hover {
+  color: #ffb74d; /* Lighter yellow on hover */
+}
+
+.volume-icon {
+  width: 40px; /* Fixed width for the volume icon container */
+  text-align: center;
+}
+
+.volume-slider {
+  width: 150px;
+  cursor: pointer;
+  -webkit-appearance: none; /* Remove default styling */
+  appearance: none; /* Remove default styling */
+  background: #ffcc00; /* Yellow background */
+  height: 5px;
+  border-radius: 5px;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default styling */
+  appearance: none; /* Remove default styling */
+  width: 15px;
+  height: 15px;
+  background: #ffcc00; /* Yellow color */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.volume-slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #ffcc00; /* Yellow color */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.song-info {
+  margin-top: 10px;
+}
+
+.song-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.song-artists {
+  font-size: 16px;
+  color: #ccc; /* Light gray for artists */
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffcc00; /* Yellow background */
+  color: #000; /* Black text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #ffb74d; /* Lighter yellow on hover */
+}

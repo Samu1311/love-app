@@ -1,0 +1,195 @@
+/* 📜 Scrapbook Fullscreen Layout */
+.scrapbook-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../assets/images/old-paper-texture.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden; /* Prevent vertical scrolling */
+}
+
+/* 📖 Flipbook Layout */
+.scrapbook-flipbook {
+  width: 380px; /* Hardcoded dimensions for iPhone 13 */
+  height: 860px; /* Hardcoded dimensions for iPhone 13 */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* Prevent vertical scrolling within the flipbook */
+}
+
+/* 📜 Scrapbook Page Styling */
+.scrapbook-page {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* 📜 Wrapper for Page Content */
+.scrapbook-pages-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 📜 Scrapbook Page Images Styling */
+.scrapbook-page-images {
+  width: 80%; /* Adjust the width as needed */
+  height: 80%; /* Adjust the height as needed */
+  background: url("../assets/images/torn-paper.jpg") no-repeat center/cover, rgba(255, 248, 220, 0.98);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Ensure tapes are positioned relative to this container */
+}
+
+.scrapbook-page-images h3 {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 24px;
+  color: #5a3e1b;
+  margin: 0;
+}
+
+.scrapbook-page-images p {
+  font-size: 24px;
+  color: #000000;
+  margin: 0;
+}
+
+/* 📖 Cover Page (Includes Header) */
+.cover-page {
+  background-size: cover;
+  background: url("../assets/images/leather-texture.jpg") no-repeat center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.cover-page .label {
+  background-color: rgba(255, 248, 220, 0.98);
+  padding: 20px;
+  border-radius: 8px;
+  border: 3px solid rgba(139, 69, 19, 0.8);
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40%; /* Center the label vertically */
+}
+
+.cover-page h1 {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 32px;
+  color: #5a3e1b;
+  margin: 0;
+}
+
+.cover-page p {
+  font-size: 18px;
+  color: #5a3e1b;
+  margin: 0;
+}
+
+/* 📜 Scrapbook Entry Styling */
+.scrapbook-entry {
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  color: #5a3e1b;
+  position: relative;
+}
+
+/* 📷 Entry Images - Vintage Effect */
+.entry-image {
+  width: 90%;
+  height: auto;
+  border-radius: 6px;
+  filter: sepia(0.3) contrast(1.1);
+  margin-bottom: 10%;
+}
+
+/* 📜 Simulated Tape */
+.tape {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: rgba(255, 228, 181, 0.8);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  transform: rotate(-5deg);
+}
+
+.tape.top-left { top: -10px; left: -10px; }
+.tape.top-right { top: -10px; right: -10px; transform: rotate(5deg); }
+.tape.bottom-left { bottom: -10px; left: -10px; transform: rotate(5deg); }
+.tape.bottom-right { bottom: -10px; right: -10px; transform: rotate(-5deg); }
+
+/* 📖 Closing Page */
+.closing-page {
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.closing-page .label {
+  background-color: rgba(255, 248, 220, 0.98);
+  padding: 20px;
+  border-radius: 8px;
+  border: 3px solid rgba(139, 69, 19, 0.8);
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0; /* Center the label vertically */
+}
+
+.closing-page h1 {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 32px;
+  color: #5a3e1b;
+  margin: 0;
+}
+
+.closing-page p {
+  font-size: 18px;
+  color: #5a3e1b;
+  margin: 0;
+}
+
+/* Home Button Styling */
+.home-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "Cormorant Garamond", serif;
+  background-color: #5a3e1b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  background-color: #4a2e1b;
+}
