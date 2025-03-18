@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1e1e; /* Dark background */
+  color: #e0e0e0c0; /* Light text color */
+}
+
+.love-wheel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: #1e1e1e; /* Dark background */
+}
+
+h1 {
+  font-size: 32px;
+  color: #ffcc00; /* Yellow accent color */
+  margin-bottom: 20px;
+}
+
+.prize-display {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #2e2e2e; /* Darker background for the display */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
+  height: 150px;
+}
+
+.prize-display p {
+  font-size: 24px;
+  color: #ffcc00; /* Yellow accent color */
+  margin: 0;
+}
+
+.placeholder {
+  color: #888; /* Placeholder text color */
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #121212;
+  background-color: #ffcc00; /* Yellow button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e6b800; /* Darker yellow on hover */
+}
+
+.start-button {
+  background-color: #2d8530; /* Green for start */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.start-button:hover {
+  background-color: #66bb6a;
+}
+
+.stop-button {
+  background-color: #f44336; /* Red for stop */
+  color: #fff;
+}
+
+.stop-button:hover {
+  background-color: #e57373;
+}
+
+.home-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ffcc00; /* Yellow button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #e6b800; /* Darker yellow on hover */
+}

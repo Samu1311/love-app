@@ -30,7 +30,7 @@ p {
   gap: 10px;
 }
 
-button {
+.song-list button {
   padding: 10px;
   font-size: 16px;
   background: #333; /* Dark gray background */
@@ -38,16 +38,12 @@ button {
   border: 2px solid #ffcc00; /* Yellow border */
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */
 }
 
-button.playing {
-  background: #ffcc00; /* Yellow background */
-  color: #000; /* Black text color */
-}
-
-button:hover {
-  background: #ffb74d; /* Lighter yellow on hover */
+.song-list button:hover {
+  background-color: #444; /* Slightly darker on hover */
+  transform: scale(1.05); /* Slightly larger on hover */
 }
 
 .song-title {

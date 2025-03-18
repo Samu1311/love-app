@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/MusicBox.css";
 
@@ -11,13 +11,9 @@ const songs = [
 
 function MusicBox() {
   const navigate = useNavigate();
-  const [currentSong, setCurrentSong] = useState(null);
-  const [isPlaying, setIsPlaying] = useState(false);
 
   const playSong = (song) => {
-    setCurrentSong(song);
-    setIsPlaying(true);
-    navigate("/playing-song", { state: { song, isPlaying: true } });
+    navigate("/playing-song", { state: { song } });
   };
 
   const goToHomePage = () => {
@@ -32,8 +28,8 @@ function MusicBox() {
         {songs.map((song) => (
           <button
             key={song.id}
-            className={currentSong?.id === song.id && isPlaying ? "playing" : ""}
             onClick={() => playSong(song)}
+            className="song-button" // Ensure consistent styling
           >
             <div className="song-title">{song.title}</div>
             <div className="song-artists">{song.artists}</div>

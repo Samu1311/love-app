@@ -8,6 +8,9 @@ import Scrapbook from "./pages/Scrapbook";
 import Quiz from "./pages/Quiz";
 import MusicBox from "./pages/MusicBox";
 import PlayingSong from "./pages/PlayingSong";
+import LoveWheel from "./pages/LoveWheel";
+import Letter from "./pages/Letter";
+import BigQuestion from "./pages/BigQuestion";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +24,9 @@ root.render(
           <Route path="quiz" element={<Quiz />} />
           <Route path="music-box" element={<MusicBox />} />
           <Route path="playing-song" element={<PlayingSong />} />
+          <Route path="love-wheel" element={<LoveWheel />} />
+          <Route path="letter" element={<Letter />} />
+          <Route path="big-question" element={<BigQuestion />} />
         </Route>
       </Routes>
     </HashRouter>
