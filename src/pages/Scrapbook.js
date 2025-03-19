@@ -8,7 +8,7 @@ const entries = [
   { id: 1, title: "Ana Bonita", image: `${process.env.PUBLIC_URL}/assets/images/scrapbook-images/ana-bonita-collage.jpg`, text: "Empecemos con un appreciaton page a la diosa que tengo de novia" },
   { id: 2, title: "Anita Chiquita", image: `${process.env.PUBLIC_URL}/assets/images/scrapbook-images/anita-chiquita.jpg`, text: "Lo más chiquito y hermoso del mundo." },
   { id: 3, title: "Ana Funny", image: `${process.env.PUBLIC_URL}/assets/images/scrapbook-images/ana-funny-collage.jpg`, text: "Porque me encantas aún más cuando tú misma dirías que no" },
-  { id: 4, title: "Día de Casas", image: `${process.env.PUBLIC_URL}/assets/images/scrapbook-images/dia-casas-collage.jpg`, text: "Buscando casas juntos. El dñia que me re confirmó lo increíble que sería la vida contigo" },
+  { id: 4, title: "Día de Casas", image: `${process.env.PUBLIC_URL}/assets/images/scrapbook-images/dia-casas-collage.jpg`, text: "Buscando casas juntos. El día que me re confirmó lo increíble que sería la vida contigo" },
   { id: 5, title: "Año Nuevo", image: `${process.env.PUBLIC_URL}/assets/images/scrapbook-images/año-nuevo-collage.jpg`, text: "La mejor manera de empezar mi año: contigo" },
   { id: 6, title: "Fiestas", image: `${process.env.PUBLIC_URL}/assets/images/scrapbook-images/fiestas-collage.jpg`, text: "Porque contigo cada plan es único y lleno de color" },
   { id: 7, title: "Wine and Art", image: `${process.env.PUBLIC_URL}/assets/images/scrapbook-images/wine-and-art-collage.jpg`, text: "Ya sea Arte y Vino solos tú y yo" },
