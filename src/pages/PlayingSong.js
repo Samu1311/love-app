@@ -6,10 +6,10 @@ import "../styles/PlayingSong.css";
 const PlayingSong = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { song, isPlaying } = location.state || {};
+  const { song, scrollPosition } = location.state || {}; // Destructure scrollPosition from state
   const audioRef = useRef(null);
   const imgRef = useRef(null);
-  const [isPlayingState, setIsPlayingState] = useState(isPlaying);
+  const [isPlayingState, setIsPlayingState] = useState(true); // Default to `true` to start playing automatically
   const [volume, setVolume] = useState(1);
   const [backgroundGradient, setBackgroundGradient] = useState("#000");
 
@@ -58,6 +58,11 @@ const PlayingSong = () => {
     }
   };
 
+  const goBack = () => {
+    // Pass the scroll position back to MusicBox
+    navigate("/music-box", { state: { scrollPosition } });
+  };
+
   if (!song) {
     return <div>No song selected</div>;
   }
@@ -66,7 +71,12 @@ const PlayingSong = () => {
     <div className="playing-song-container" style={{ background: backgroundGradient }}>
       <div className="vinyl-record">
         <div className="record-center">
-          <img ref={imgRef} src={`${process.env.PUBLIC_URL}${song.cover}`} alt={song.title} crossOrigin="anonymous" />
+          <img
+            ref={imgRef}
+            src={`${process.env.PUBLIC_URL}${song.cover}`}
+            alt={song.title}
+            crossOrigin="anonymous"
+          />
         </div>
       </div>
       <div className="player">
@@ -93,7 +103,9 @@ const PlayingSong = () => {
           <div className="song-artists">{song.artists}</div>
         </div>
       </div>
-      <button className="back-button" onClick={() => navigate(-1)}>Back</button>
+      <button className="back-button" onClick={goBack}>
+        Back
+      </button>
     </div>
   );
 };
