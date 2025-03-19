@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/love-app/static/css/main.4af344a1.css",
-    "main.js": "/love-app/static/js/main.37959ac7.js",
+    "main.css": "/love-app/static/css/main.c398895d.css",
+    "main.js": "/love-app/static/js/main.3bcd79ea.js",
     "static/media/torn-paper.jpg": "/love-app/static/media/torn-paper.dc8a4541b3e2de7dc92d.jpg",
     "static/media/starry-background.jpg": "/love-app/static/media/starry-background.e9b8b093264ac9c9251b.jpg",
     "static/media/vinyl-record.jpg": "/love-app/static/media/vinyl-record.ab1b7c81267fdfd28190.jpg",
     "static/media/leather-texture.jpg": "/love-app/static/media/leather-texture.c66ca14ea858de2060ff.jpg",
     "static/media/old-paper-texture.jpg": "/love-app/static/media/old-paper-texture.1698491f70c7299e57d9.jpg",
     "index.html": "/love-app/index.html",
-    "main.4af344a1.css.map": "/love-app/static/css/main.4af344a1.css.map",
-    "main.37959ac7.js.map": "/love-app/static/js/main.37959ac7.js.map"
+    "main.c398895d.css.map": "/love-app/static/css/main.c398895d.css.map",
+    "main.3bcd79ea.js.map": "/love-app/static/js/main.3bcd79ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.4af344a1.css",
-    "static/js/main.37959ac7.js"
+    "static/css/main.c398895d.css",
+    "static/js/main.3bcd79ea.js"
   ]
 }
