@@ -1,21 +1,18 @@
 {
   "files": {
-    "main.css": "/love-app/static/css/main.821cb0ab.css",
-    "main.js": "/love-app/static/js/main.2cd0af57.js",
+    "main.css": "/love-app/static/css/main.4af344a1.css",
+    "main.js": "/love-app/static/js/main.ab80863e.js",
     "static/media/torn-paper.jpg": "/love-app/static/media/torn-paper.dc8a4541b3e2de7dc92d.jpg",
     "static/media/starry-background.jpg": "/love-app/static/media/starry-background.e9b8b093264ac9c9251b.jpg",
-    "static/media/first-date.jpg": "/love-app/static/media/first-date.efc806b20e5fbda110bc.jpg",
-    "static/media/movie-night.jpg": "/love-app/static/media/movie-night.4300e67030c03351ae7f.jpg",
     "static/media/vinyl-record.jpg": "/love-app/static/media/vinyl-record.ab1b7c81267fdfd28190.jpg",
     "static/media/leather-texture.jpg": "/love-app/static/media/leather-texture.c66ca14ea858de2060ff.jpg",
-    "static/media/beach-trip.jpg": "/love-app/static/media/beach-trip.6190b3497c6afd83f2e0.jpg",
     "static/media/old-paper-texture.jpg": "/love-app/static/media/old-paper-texture.1698491f70c7299e57d9.jpg",
     "index.html": "/love-app/index.html",
-    "main.821cb0ab.css.map": "/love-app/static/css/main.821cb0ab.css.map",
-    "main.2cd0af57.js.map": "/love-app/static/js/main.2cd0af57.js.map"
+    "main.4af344a1.css.map": "/love-app/static/css/main.4af344a1.css.map",
+    "main.ab80863e.js.map": "/love-app/static/js/main.ab80863e.js.map"
   },
   "entrypoints": [
-    "static/css/main.821cb0ab.css",
-    "static/js/main.2cd0af57.js"
+    "static/css/main.4af344a1.css",
+    "static/js/main.ab80863e.js"
   ]
 }
