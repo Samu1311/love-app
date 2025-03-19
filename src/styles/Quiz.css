@@ -104,18 +104,22 @@
 
 /* 🌟 Home Button */
 .home-button {
-  margin-top: 20%;
+  margin: 20px auto; /* Center the button horizontally */
+  display: block; /* Make the button a block element */
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 16px;
   color: #121212;
-  background-color: #ffcc00; /* Yellow button */
+  background-color: #ffcc00; /* Yellow accent color */
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .home-button:hover {
   background-color: #e6b800; /* Darker yellow on hover */
+}
+
+.home-button i {
+  margin-right: 5px;
 }

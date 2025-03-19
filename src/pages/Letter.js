@@ -39,8 +39,8 @@ const Letter = () => {
           tu electroncito.
         </p>
         <button className="home-button" onClick={goToHomePage}>
-          Volver al Inicio
-        </button>
+        <i className="fas fa-home"></i> Home
+      </button>
       </div>
     </div>
   );

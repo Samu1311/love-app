@@ -181,17 +181,22 @@
 
 /* Home Button Styling */
 .home-button {
-  margin-top: 10px;
+  margin: 20px auto; /* Center the button horizontally */
+  display: block; /* Make the button a block element */
   padding: 10px 20px;
   font-size: 16px;
-  font-family: "Cormorant Garamond", serif;
-  background-color: #5a3e1b;
-  color: white;
+  color: #121212;
+  background-color: #ffcc00; /* Yellow accent color */
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .home-button:hover {
-  background-color: #4a2e1b;
+  background-color: #e6b800; /* Darker yellow on hover */
+}
+
+.home-button i {
+  margin-right: 5px;
 }

@@ -39,7 +39,9 @@ function Scrapbook() {
           <div className="label">
             <h1>Nuestras Memorias</h1>
             <p>Un repaso a nuestros mejores momentos</p>
-            <button className="home-button" onClick={goToHomePage}>Home</button>
+            <button className="home-button" onClick={goToHomePage}>
+              <i className="fas fa-home"></i> Home
+            </button>
             <div className="tape top-left"></div>
             <div className="tape top-right"></div>
             <div className="tape bottom-left"></div>
@@ -69,7 +71,9 @@ function Scrapbook() {
           <div className="label">
             <h1>Gracias por todos los momentos</h1>
             <p>Te amo un mundo. Y prometo agregar más páginas a este librito a medida que creemos muchos más juntos</p>
-            <button className="home-button" onClick={goToHomePage}>Home</button>
+            <button className="home-button" onClick={goToHomePage}>
+              <i className="fas fa-home"></i> Home
+            </button>
             <div className="tape top-left"></div>
             <div className="tape top-right"></div>
             <div className="tape bottom-left"></div>

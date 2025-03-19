@@ -68,7 +68,7 @@ const LoveWheel = () => {
         )}
       </div>
       <button className="home-button" onClick={goToHomePage}>
-        Volver al Inicio
+        <i className="fas fa-home"></i> Home
       </button>
     </div>
   );

@@ -84,11 +84,12 @@ button:hover {
 }
 
 .home-button {
-  margin-top: 20px;
+  margin: 20px auto; /* Center the button horizontally */
+  display: block; /* Make the button a block element */
   padding: 10px 20px;
-  font-size: 18px;
-  color: #fff;
-  background-color: #ffcc00; /* Yellow button */
+  font-size: 16px;
+  color: #121212;
+  background-color: #ffcc00; /* Yellow accent color */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -97,4 +98,8 @@ button:hover {
 
 .home-button:hover {
   background-color: #e6b800; /* Darker yellow on hover */
+}
+
+.home-button i {
+  margin-right: 5px;
 }

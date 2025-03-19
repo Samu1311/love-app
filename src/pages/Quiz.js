@@ -85,7 +85,7 @@ function Quiz() {
         </div>
       )}
       <button className="home-button" onClick={goToHomePage}>
-        Home
+        <i className="fas fa-home"></i> Home
       </button>
     </div>
   );
