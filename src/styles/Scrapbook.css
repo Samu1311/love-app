@@ -59,16 +59,16 @@
 /* 📜 Scrapbook Entry Styling */
 .scrapbook-page-images h3 {
   font-family: "Cedarville Cursive", cursive; /* Cursive font for the title */
-  font-size: 28px; /* Slightly larger font size for the header */
+  font-size: 30px; /* Slightly larger font size for the header */
   color: #5a3e1b; /* Brownish color for the header */
-  margin: 10px 0; /* Add spacing around the header */
+  margin: 0px 0; /* Add spacing around the header */
 }
 
 .scrapbook-page-images p {
   font-family: "Cedarville Cursive", cursive; /* Cursive font for the text */
-  font-size: 20px; /* Normal text size */
+  font-size: 23px; /* Normal text size */
   color: #000000; /* Black color for the text */
-  margin: 10px 0; /* Add spacing around the text */
+  margin: 0px 0; /* Add spacing around the text */
 }
 
 /* 📖 Cover Page (Includes Header) */
