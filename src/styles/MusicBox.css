@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh; /* Cover the entire viewport */
+  justify-content: flex-start; /* Align content to the top */
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Enable vertical scrolling */
   text-align: center;
   padding: 20px;
   background: #000; /* Black background */
@@ -28,6 +29,8 @@ p {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 100%; /* Ensure the song list takes full width */
+  max-width: 600px; /* Limit the width for better readability */
 }
 
 .song-list button {

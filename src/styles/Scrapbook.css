@@ -56,17 +56,19 @@
   position: relative; /* Ensure tapes are positioned relative to this container */
 }
 
+/* 📜 Scrapbook Entry Styling */
 .scrapbook-page-images h3 {
-  font-family: "Cedarville Cursive", cursive;
-  font-size: 24px;
-  color: #5a3e1b;
-  margin: 0;
+  font-family: "Cedarville Cursive", cursive; /* Cursive font for the title */
+  font-size: 28px; /* Slightly larger font size for the header */
+  color: #5a3e1b; /* Brownish color for the header */
+  margin: 10px 0; /* Add spacing around the header */
 }
 
 .scrapbook-page-images p {
-  font-size: 24px;
-  color: #000000;
-  margin: 0;
+  font-family: "Cedarville Cursive", cursive; /* Cursive font for the text */
+  font-size: 20px; /* Normal text size */
+  color: #000000; /* Black color for the text */
+  margin: 10px 0; /* Add spacing around the text */
 }
 
 /* 📖 Cover Page (Includes Header) */
