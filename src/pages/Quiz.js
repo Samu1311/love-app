@@ -30,15 +30,39 @@ const questions = [
   },
   {
     id: 5,
-    question: "Quién ha dado mas primeros pasos en la relación?",
+    question: "Quién ha dado más primeros pasos en la relación?",
     options: ["Samuele", "Ana"],
     answer: "Samuele",
   },
   {
     id: 6,
     question: "Cómo se va a llamar nuestra primera hija?",
-    options: ["Sofía", "Samuele", "Andrea", "Eliza"],
+    options: ["Sofía", "Daniela", "Andrea", "Eliza"],
     answer: "Eliza",
+  },
+  {
+    id: 7,
+    question: "Cómo se llama el bar en el que nos dijimos TE AMO?",
+    options: ["MOJO", "JOJO", "MOMO", "MONO"],
+    answer: "JOJO",
+  },
+  {
+    id: 8,
+    question: "Frente a qué tienda nos dimos nuestro beso de año nuevo?",
+    options: ["McDonalds", "Espresso House", "Netto", "Føtex"],
+    answer: "Føtex",
+  },
+  {
+    id: 9,
+    question: "Qué decía el mensaje del día que me tentaste por whatsapp antes de estar juntos?",
+    options: ["Ven y dímelo", "Dilo pues", "Quiero que lo digas", "Quiero escucharlo"],
+    answer: "Quiero que lo digas",
+  },
+  {
+    id: 10,
+    question: "De qué lata es la chapita del amor que llevo en mi collar desde Oslo?",
+    options: ["Red Bull", "Coca-Cola", "Faxe Kondi", "Monster"],
+    answer: "Red Bull",
   },
 ];
 
