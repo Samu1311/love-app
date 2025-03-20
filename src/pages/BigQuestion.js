@@ -42,7 +42,7 @@ const BigQuestion = () => {
 
       {response === "yes" && (
         <div className="celebration">
-          <h1 className="celebration-label">¡Síííííí! 🎉💖</h1>
+          <h1 className="celebration-label">Gracias por hacerme tan feliz Te amo mucho 🎉💖</h1>
           <div className="hearts-rain"></div>
         </div>
       )}

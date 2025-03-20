@@ -27,7 +27,7 @@
 
 .question h1 {
   font-size: 36px;
-  color: #6c757d; /* Same desaturated light color */
+  color: #ffffff; /* Same desaturated light color */
   margin-bottom: 20px;
 }
 
@@ -71,7 +71,7 @@
 
 .celebration-label {
   font-size: 48px;
-  color: #ff69b4;
+  color: #ffacd5;
   position: absolute;
   top: 50%;
   left: 50%;
